@@ -12,14 +12,33 @@
 <body>
   <div class="container">
     <div class="jumbotron text-center">
-      <h3 class="display-4">Which Hogwarts Character Are You?</h3>
+      <h3 class="display-4">Which Character Are You?</h3>
       <hr>
       <p class="lead">Answer the questions below to find out!</p>
     </div>
-     <!-- Form -->
+    <!-- Franchise Form -->
+     <div class="card">
+      <form id="franchiseForm" class="shawdow p-3">
+        <h5 class="text-center pb-4">Which franchise do you prefer?</h5>
+        <div class="radio">
+          <label>
+          <input type="radio" name="franchise" value="Marvel" checked>
+          Marvel
+          </label>
+        </div>
+        <div class="radio">
+            <label>
+            <input type="radio" name="franchise" value="Hogwarts" checked>
+            Hogwarts
+            </label>
+        </div>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+    </div>
+    <!-- Hogwarts Form -->
      <div class="card">
       <form id="hogwartsForm" class="shadow p-3">
-
+        <h5 class="text-center pb-4">Hogwarts Character Survey</h5>
         <div class="form-group">
           <label for="pastimes">Which activity would you do in your free time?</label>
           <select id="pastimes" class="form-control">
@@ -28,7 +47,6 @@
             <option value="3">Eating chocolate frogs</option>
           </select>
         </div>
-
         <div class="form-group">
           <label for="adjective">Which adjective best describes you?</label>
           <select id="adjective" class="form-control">
@@ -37,13 +55,45 @@
             <option value="3">Loyal</option>
           </select>
         </div>
-
         <div class="form-group">
           <label for="subject">What is your favorite magical subject?</label>
           <select id="subject" class="form-control">
             <option value="1">Defense Against the Dark Arts</option>
             <option value="2">Arithmancy!</option>
             <option value="3">Lunch</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+    </div>
+    <!-- Marvel Form -->
+    <div class="card">
+      <form id="marvelForm" class="shadow p-3">
+        <h5 class="text-center pb-4">Marvel Character Survey</h5>
+        <div class="form-group">
+          <label for="combat">What is your preferred combat style?</label>
+          <select id="combat" class="form-control">
+            <option value="1">Web-Sling</option>
+            <option value="2">Wield a hammer</option>
+            <option value="3">SMASH</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="leisure">Which is your favorite leisure activity?</label>
+          <select id="leisure" class="form-control">
+            <option value="1">Taking Photos for the Daily Bugle</option>
+            <option value="2">Drinking</option>
+            <option value="3">SMASH</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="location">Where do you spend most of your time?</label>
+          <select id="location" class="form-control">
+            <option value="1">New York City</option>
+            <option value="2">Asgard</option>
+            <option value="3">SMASH</option>
           </select>
         </div>
         <button type="submit" class="btn btn-info">Submit</button>
