@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Hogwarts Character Selector</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h3 class="display-4">Which Hogwarts Character Are You?</h3>
+      <hr>
+      <p class="lead">Answer the questions below to find out!</p>
+    </div>
+     <!-- Form -->
+     <div class="card">
+      <form id="hogwartsForm" class="shadow p-3">
+
+        <div class="form-group">
+          <label for="pastimes">Which activity would you do in your free time?</label>
+          <select id="pastimes" class="form-control">
+            <option value="1">Playing quidditch</option>
+            <option value="2">Reading a book</option>
+            <option value="3">Eating chocolate frogs</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="adjective">Which adjective best describes you?</label>
+          <select id="adjective" class="form-control">
+            <option value="1">Brave</option>
+            <option value="2">Smart</option>
+            <option value="3">Loyal</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">What is your favorite magical subject?</label>
+          <select id="subject" class="form-control">
+            <option value="1">Defense Against the Dark Arts</option>
+            <option value="2">Arithmancy!</option>
+            <option value="3">Lunch</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+    </div>
+    <!-- Result -->
+    <div id="result" class="text-center display-4 m-5">
+
+    </div>
+  </div>
+</body>
+</html>
