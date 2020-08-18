@@ -9,21 +9,22 @@ _This is a web project to practice using HTML forms and form data and writing JS
 
 ## Setup/Installation Requirements
 
-* Clone the repository 
-* Click on the index.html file
-* See the result in your browser
+To View Project:
+* Open a web browser of your choice and navigate to the following page: https://vanmars.github.io/hogwarts-character/.
+
+To Extend This Project:
+* Clone this project using the 'git clone' command in terminal.
+* Open the cloned repo in a text editor of your choice.
 
 ## Known Bugs
 
-_No known bugs at the time_
+* Additional questions and character possibilites could be added in the future.
 
 ## Technologies Used
 
 * HTML5
-* JavaScript
-* jQuery
-* CSS
-* Bootstrap
+* CSS/Bootstrap
+* JavaScript/jQuery
 
 ### License
 
