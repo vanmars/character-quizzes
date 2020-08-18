@@ -1,11 +1,11 @@
-# _Which Characther are you?_
+# _Which Characther Are You?_
 
-#### _This is a Which Character Are You Quiz created as a project for Epicodus, made on 8/13/2020_
+#### _Character Quiz, 20 August 2020_
 
 #### By _**Vanessa Stewart & Mark Tiapkov**_
 
 ## Description
-_This is Which Character Are You Quiz which determines which Harry Potter character you are based on user input_
+_This is a web project to practice using HTML forms and form data and writing JS functions. The initial form asks users to select either a Marvel or Hogwarts Character Quiz From. Upon submit, the user is taken to a new form to answer personal questions. The JS then processes the form data to recommend a character based on those preferences. The character name along with an image is printed to the screen._
 
 ## Setup/Installation Requirements
 
@@ -13,16 +13,9 @@ _This is Which Character Are You Quiz which determines which Harry Potter charac
 * Click on the index.html file
 * See the result in your browser
 
-
 ## Known Bugs
 
 _No known bugs at the time_
-
-## Support and contact details
-
-_For contact/support please contact Vanessa Stewart on Discord @VanessaStewart#3573 or Mark Tiapkov @MarkT#0558_
-
-
 
 ## Technologies Used
 
@@ -31,7 +24,6 @@ _For contact/support please contact Vanessa Stewart on Discord @VanessaStewart#3
 * jQuery
 * CSS
 * Bootstrap
-
 
 ### License
 
