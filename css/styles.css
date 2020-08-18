@@ -9,3 +9,8 @@
 #marvelForm {
   display: none;
 }
+
+img {
+  margin: auto;
+  width: 75vw;
+}
